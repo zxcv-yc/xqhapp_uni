@@ -1,6 +1,8 @@
 <template>
 	<view class="container">
+		<view class="">
 
+		</view>
 	</view>
 </template>
 
@@ -32,7 +34,7 @@
 			},
 			aa: function() {
 				uni.showLoading({
-					title:'加载中'
+					title: '加载中'
 				})
 				let opts = {
 					url: '',
