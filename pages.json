@@ -1,0 +1,144 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#ff6f9c",
+				"backgroundColor": "#ff6f9c",
+				// "backgroundColorTop":"#ff6f9c",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff6f9c"
+			}
+		},
+		{
+			"path": "pages/found/found",
+			"style": {
+				"navigationBarTitleText": "圈子",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff6f9c"
+			}
+		},
+		{
+			"path": "pages/oneCity/oneCity",
+			"style": {
+				"navigationBarTitleText": "一城一品",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff6f9c"
+			}
+		},
+		{
+			"path": "pages/index/near",
+			"style": {
+				"navigationBarTitleText": "位置选择",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "店铺详情",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff6f9c"
+			}
+		},
+		{
+			"path": "pages/good/bendiGoodsInfo",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff6f9c"
+			}
+		},
+		{
+			"path": "pages/login/signin",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#3960FF"
+			}
+		},
+		{
+			"path": "pages/good/oneCityGoodInfo",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}
+
+		, {
+			"path": "pages/member/memberCenter",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#222222"
+			}
+		}, {
+			"path": "pages/member/giftInfo",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}, {
+			"path": "pages/order/bendiCreateOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		}
+	    ,{
+            "path" : "pages/address/addressList",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#C0C4CC", //未选中的菜单文字颜色
+		"selectedColor": "#ff6f9c", //选中时的菜单文字颜色
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff", //背景
+		"list": [{
+				"pagePath": "pages/index/index", //页面地址
+				"iconPath": "static/tabbar/sy_n@3x.png", //未选中时的图片
+				"selectedIconPath": "static/tabbar/sy_p@3x.png", //选中时的图片
+				"text": "首页" //菜单文字
+			},
+			{
+				"pagePath": "pages/oneCity/oneCity", //页面地址
+				"iconPath": "static/tabbar/yc_n@3x.png", //未选中时的图片
+				"selectedIconPath": "static/tabbar/sy_p@3x.png", //选中时的图片
+				"text": "一城一品" //菜单文字
+			},
+			{
+				"pagePath": "pages/found/found", //页面地址
+				"iconPath": "static/tabbar/qz_n@3x.png", //未选中时的图片
+				"selectedIconPath": "static/tabbar/qz_p@3x.png", //选中时的图片
+				"text": "圈子" //菜单文字
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/wd_n@3x.png",
+				"selectedIconPath": "static/tabbar/sy_p@3x.png",
+				"text": "我的"
+			}
+		]
+	}
+}
