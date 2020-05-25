@@ -13,7 +13,8 @@
     "pages/member/memberCenter",
     "pages/member/giftInfo",
     "pages/order/bendiCreateOrder",
-    "pages/address/addressList"
+    "pages/address/addressList",
+    "pages/address/addressInfo"
   ],
   "subPackages": [],
   "window": {

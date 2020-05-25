@@ -1,6 +1,6 @@
 
 .top_bg_box {
-	background-image: url(../../static/img/bg_login.a22069f4.png);
+	background-image: url(/static/images/bg_login.png);
 	width: 750rpx;
 	height: 1266rpx;
 	background-size: 100% 100%;

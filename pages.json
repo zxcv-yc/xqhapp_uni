@@ -98,12 +98,18 @@
 			"style": {
 				"navigationBarTitleText": "确认订单"
 			}
+		}, {
+			"path": "pages/address/addressList",
+			"style": {
+				"navigationBarTitleText": "我的地址"
+			}
+		}, {
+			"path": "pages/address/addressInfo",
+			"style": {
+				"navigationBarTitleText": "新增地址"
+			}
 		}
-	    ,{
-            "path" : "pages/address/addressList",
-            "style" : {}
-        }
-    ],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

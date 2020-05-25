@@ -3,7 +3,7 @@
  * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
  * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
  */
-.u-search.data-v-1899bb20 {
+.u-search.data-v-627ac7f6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -14,7 +14,7 @@
   -webkit-flex: 1;
           flex: 1;
 }
-.u-content.data-v-1899bb20 {
+.u-content.data-v-627ac7f6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -26,7 +26,7 @@
   -webkit-flex: 1;
           flex: 1;
 }
-.u-clear-icon.data-v-1899bb20 {
+.u-clear-icon.data-v-627ac7f6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -34,7 +34,7 @@
   -webkit-align-items: center;
           align-items: center;
 }
-.u-input.data-v-1899bb20 {
+.u-input.data-v-627ac7f6 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
@@ -43,7 +43,7 @@
   margin: 0 10rpx;
   color: #909399;
 }
-.u-close-wrap.data-v-1899bb20 {
+.u-close-wrap.data-v-627ac7f6 {
   width: 34rpx;
   height: 34rpx;
   display: -webkit-box;
@@ -58,10 +58,10 @@
   background-color: #c8cbcc;
   border-radius: 50%;
 }
-.u-placeholder-class.data-v-1899bb20 {
+.u-placeholder-class.data-v-627ac7f6 {
   color: #909399;
 }
-.u-action.data-v-1899bb20 {
+.u-action.data-v-627ac7f6 {
   font-size: 28rpx;
   color: #303133;
   width: 0;
@@ -71,7 +71,7 @@
   white-space: nowrap;
   text-align: center;
 }
-.u-action-active.data-v-1899bb20 {
+.u-action-active.data-v-627ac7f6 {
   width: 80rpx;
   margin-left: 10rpx;
 }

@@ -88,7 +88,7 @@
  * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
  * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
  */
-.navigation.data-v-2f2ae793 {
+.navigation.data-v-7c190c66 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -101,25 +101,25 @@
   width: 100%;
   bottom: 0;
 }
-.navigation .left.data-v-2f2ae793 {
+.navigation .left.data-v-7c190c66 {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
     font-size: 20rpx;
 }
-.navigation .left .item.data-v-2f2ae793 {
+.navigation .left .item.data-v-7c190c66 {
       margin: 0 30rpx;
 }
-.navigation .left .item.car.data-v-2f2ae793 {
+.navigation .left .item.car.data-v-7c190c66 {
         text-align: center;
         position: relative;
 }
-.navigation .left .item.car .car-num.data-v-2f2ae793 {
+.navigation .left .item.car .car-num.data-v-7c190c66 {
           position: absolute;
           top: -10rpx;
           right: -10rpx;
 }
-.navigation .right.data-v-2f2ae793 {
+.navigation .right.data-v-7c190c66 {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -135,17 +135,17 @@
             flex: 1;
     text-align: center;
 }
-.navigation .right .btn.data-v-2f2ae793 {
+.navigation .right .btn.data-v-7c190c66 {
       line-height: 66rpx;
       padding: 0 30rpx;
       border-radius: 36rpx;
       color: #ffffff;
 }
-.navigation .right .cart.data-v-2f2ae793 {
+.navigation .right .cart.data-v-7c190c66 {
       background-color: #FF9F10;
       margin-right: 30rpx;
 }
-.navigation .right .buy.data-v-2f2ae793 {
+.navigation .right .buy.data-v-7c190c66 {
       background-color: #F94E74;
 }
 

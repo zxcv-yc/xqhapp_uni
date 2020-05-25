@@ -1,0 +1,131 @@
+
+page {
+	background: #F5EFEF;
+}
+.address {
+	padding: 0 40rpx;
+	background: #fff;
+}
+.address-block {
+	padding-bottom: 20rpx;
+	border-bottom: 1rpx solid #efefef;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.address-caozuo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.address-right {
+	width: 60rpx;
+	padding: 10rpx;
+	margin-top: 20rpx;
+	background-color: #F01308;
+	color: #fff;
+	text-align: center;
+	font-size: 30rpx;
+	border-radius: 10rpx;
+}
+.address-phone {
+	font-size: 28rpx;
+	color: #666;
+}
+.address-right2 {
+	width: 80rpx;
+	color: #FF6F9C;
+	text-align: right;
+	font-size: 30rpx;
+}
+.address-content {
+	width: 560rpx;
+	height: 150rpx;
+}
+.address-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.address-content-top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	margin-bottom: 15rpx;
+}
+.noborder {
+	border: 0rpx !important;
+}
+.address-name {
+	font-size: 32rpx;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-right: 20rpx;
+}
+.address-mobile {
+	font-size: 24rpx;
+}
+.address-content-button {
+	font-size: 28rpx;
+	color: #666666;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.createAddress {
+	width: calc(90% - 40rpx);
+	margin-left: 5%;
+	position: fixed;
+	bottom: 30rpx;
+	padding: 20rpx;
+	border-radius: 50rpx;
+	background: #FF6F9C;
+	color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.view-line {
+	height: 100rpx;
+	width: 1rpx;
+	margin-right: 20rpx;
+	background: #dbdbdb;
+}
+.create {
+	width: 35rpx;
+	height: 35rpx;
+	margin-right: 10rpx;
+}
+

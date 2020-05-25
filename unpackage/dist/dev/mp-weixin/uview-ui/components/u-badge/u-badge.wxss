@@ -3,7 +3,7 @@
  * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
  * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
  */
-.u-badge-box.data-v-084e53f0 {
+.u-badge-box.data-v-4538250e {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: inline-flex;
@@ -14,24 +14,24 @@
   -webkit-align-items: center;
           align-items: center;
 }
-.u-badge.data-v-084e53f0 {
+.u-badge.data-v-4538250e {
   line-height: 24rpx;
   padding: 4rpx 8rpx;
   border-radius: 100rpx;
 }
-.u-badge-dot.data-v-084e53f0 {
+.u-badge-dot.data-v-4538250e {
   height: 16rpx;
   width: 16rpx;
   border-radius: 100rpx;
   line-height: 1;
 }
-.u-badge-mini.data-v-084e53f0 {
+.u-badge-mini.data-v-4538250e {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
   -webkit-transform-origin: center center;
           transform-origin: center center;
 }
-.u-info.data-v-084e53f0 {
+.u-info.data-v-4538250e {
   background: #909399;
   color: #fff;
 }

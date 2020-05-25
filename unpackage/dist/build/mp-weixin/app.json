@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/found/found",
+    "pages/oneCity/oneCity",
+    "pages/index/near",
+    "pages/shop/shop",
+    "pages/good/bendiGoodsInfo",
+    "pages/login/login",
+    "pages/login/signin",
+    "pages/good/oneCityGoodInfo",
+    "pages/member/memberCenter",
+    "pages/member/giftInfo",
+    "pages/order/bendiCreateOrder",
+    "pages/address/addressList",
+    "pages/address/addressInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#ff6f9c",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/sy_n@3x.png",
+        "selectedIconPath": "static/tabbar/sy_p@3x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/oneCity/oneCity",
+        "iconPath": "static/tabbar/yc_n@3x.png",
+        "selectedIconPath": "static/tabbar/sy_p@3x.png",
+        "text": "一城一品"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "iconPath": "static/tabbar/qz_n@3x.png",
+        "selectedIconPath": "static/tabbar/qz_p@3x.png",
+        "text": "圈子"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/wd_n@3x.png",
+        "selectedIconPath": "static/tabbar/sy_p@3x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
